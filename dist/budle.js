@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "bb7eb7f9b1d4b3d5b802";
+/******/ 	var hotCurrentHash = "b9b2b50a9ab481f3441e";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2737,6 +2737,20 @@ exports.push([module.i, "/*!\n *  Font Awesome 4.7.0 by @davegandy - http://font
 exports = module.exports = __webpack_require__(/*! ../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
 exports.push([module.i, "/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */\n\n/* Document\n   ========================================================================== */\n\n/**\n * 1. Correct the line height in all browsers.\n * 2. Prevent adjustments of font size after orientation changes in iOS.\n */\n\nhtml {\n  line-height: 1.15; /* 1 */\n  -webkit-text-size-adjust: 100%; /* 2 */\n}\n\n/* Sections\n   ========================================================================== */\n\n/**\n * Remove the margin in all browsers.\n */\n\nbody {\n  margin: 0;\n}\n\n/**\n * Render the `main` element consistently in IE.\n */\n\nmain {\n  display: block;\n}\n\n/**\n * Correct the font size and margin on `h1` elements within `section` and\n * `article` contexts in Chrome, Firefox, and Safari.\n */\n\nh1 {\n  font-size: 2em;\n  margin: 0.67em 0;\n}\n\n/* Grouping content\n   ========================================================================== */\n\n/**\n * 1. Add the correct box sizing in Firefox.\n * 2. Show the overflow in Edge and IE.\n */\n\nhr {\n  box-sizing: content-box; /* 1 */\n  height: 0; /* 1 */\n  overflow: visible; /* 2 */\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\npre {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/* Text-level semantics\n   ========================================================================== */\n\n/**\n * Remove the gray background on active links in IE 10.\n */\n\na {\n  background-color: transparent;\n}\n\n/**\n * 1. Remove the bottom border in Chrome 57-\n * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.\n */\n\nabbr[title] {\n  border-bottom: none; /* 1 */\n  text-decoration: underline; /* 2 */\n  text-decoration: underline dotted; /* 2 */\n}\n\n/**\n * Add the correct font weight in Chrome, Edge, and Safari.\n */\n\nb,\nstrong {\n  font-weight: bolder;\n}\n\n/**\n * 1. Correct the inheritance and scaling of font size in all browsers.\n * 2. Correct the odd `em` font sizing in all browsers.\n */\n\ncode,\nkbd,\nsamp {\n  font-family: monospace, monospace; /* 1 */\n  font-size: 1em; /* 2 */\n}\n\n/**\n * Add the correct font size in all browsers.\n */\n\nsmall {\n  font-size: 80%;\n}\n\n/**\n * Prevent `sub` and `sup` elements from affecting the line height in\n * all browsers.\n */\n\nsub,\nsup {\n  font-size: 75%;\n  line-height: 0;\n  position: relative;\n  vertical-align: baseline;\n}\n\nsub {\n  bottom: -0.25em;\n}\n\nsup {\n  top: -0.5em;\n}\n\n/* Embedded content\n   ========================================================================== */\n\n/**\n * Remove the border on images inside links in IE 10.\n */\n\nimg {\n  border-style: none;\n}\n\n/* Forms\n   ========================================================================== */\n\n/**\n * 1. Change the font styles in all browsers.\n * 2. Remove the margin in Firefox and Safari.\n */\n\nbutton,\ninput,\noptgroup,\nselect,\ntextarea {\n  font-family: inherit; /* 1 */\n  font-size: 100%; /* 1 */\n  line-height: 1.15; /* 1 */\n  margin: 0; /* 2 */\n}\n\n/**\n * Show the overflow in IE.\n * 1. Show the overflow in Edge.\n */\n\nbutton,\ninput { /* 1 */\n  overflow: visible;\n}\n\n/**\n * Remove the inheritance of text transform in Edge, Firefox, and IE.\n * 1. Remove the inheritance of text transform in Firefox.\n */\n\nbutton,\nselect { /* 1 */\n  text-transform: none;\n}\n\n/**\n * Correct the inability to style clickable types in iOS and Safari.\n */\n\nbutton,\n[type=\"button\"],\n[type=\"reset\"],\n[type=\"submit\"] {\n  -webkit-appearance: button;\n}\n\n/**\n * Remove the inner border and padding in Firefox.\n */\n\nbutton::-moz-focus-inner,\n[type=\"button\"]::-moz-focus-inner,\n[type=\"reset\"]::-moz-focus-inner,\n[type=\"submit\"]::-moz-focus-inner {\n  border-style: none;\n  padding: 0;\n}\n\n/**\n * Restore the focus styles unset by the previous rule.\n */\n\nbutton:-moz-focusring,\n[type=\"button\"]:-moz-focusring,\n[type=\"reset\"]:-moz-focusring,\n[type=\"submit\"]:-moz-focusring {\n  outline: 1px dotted ButtonText;\n}\n\n/**\n * Correct the padding in Firefox.\n */\n\nfieldset {\n  padding: 0.35em 0.75em 0.625em;\n}\n\n/**\n * 1. Correct the text wrapping in Edge and IE.\n * 2. Correct the color inheritance from `fieldset` elements in IE.\n * 3. Remove the padding so developers are not caught out when they zero out\n *    `fieldset` elements in all browsers.\n */\n\nlegend {\n  box-sizing: border-box; /* 1 */\n  color: inherit; /* 2 */\n  display: table; /* 1 */\n  max-width: 100%; /* 1 */\n  padding: 0; /* 3 */\n  white-space: normal; /* 1 */\n}\n\n/**\n * Add the correct vertical alignment in Chrome, Firefox, and Opera.\n */\n\nprogress {\n  vertical-align: baseline;\n}\n\n/**\n * Remove the default vertical scrollbar in IE 10+.\n */\n\ntextarea {\n  overflow: auto;\n}\n\n/**\n * 1. Add the correct box sizing in IE 10.\n * 2. Remove the padding in IE 10.\n */\n\n[type=\"checkbox\"],\n[type=\"radio\"] {\n  box-sizing: border-box; /* 1 */\n  padding: 0; /* 2 */\n}\n\n/**\n * Correct the cursor style of increment and decrement buttons in Chrome.\n */\n\n[type=\"number\"]::-webkit-inner-spin-button,\n[type=\"number\"]::-webkit-outer-spin-button {\n  height: auto;\n}\n\n/**\n * 1. Correct the odd appearance in Chrome and Safari.\n * 2. Correct the outline style in Safari.\n */\n\n[type=\"search\"] {\n  -webkit-appearance: textfield; /* 1 */\n  outline-offset: -2px; /* 2 */\n}\n\n/**\n * Remove the inner padding in Chrome and Safari on macOS.\n */\n\n[type=\"search\"]::-webkit-search-decoration {\n  -webkit-appearance: none;\n}\n\n/**\n * 1. Correct the inability to style clickable types in iOS and Safari.\n * 2. Change font properties to `inherit` in Safari.\n */\n\n::-webkit-file-upload-button {\n  -webkit-appearance: button; /* 1 */\n  font: inherit; /* 2 */\n}\n\n/* Interactive\n   ========================================================================== */\n\n/*\n * Add the correct display in Edge, IE 10+, and Firefox.\n */\n\ndetails {\n  display: block;\n}\n\n/*\n * Add the correct display in all browsers.\n */\n\nsummary {\n  display: list-item;\n}\n\n/* Misc\n   ========================================================================== */\n\n/**\n * Add the correct display in IE 10+.\n */\n\ntemplate {\n  display: none;\n}\n\n/**\n * Add the correct display in IE 10.\n */\n\n[hidden] {\n  display: none;\n}\n", ""]);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js!./src/battle.css":
+/*!**************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./src/battle.css ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
+// Module
+exports.push([module.i, "\r\n.test{\r\n    text-align: center;\r\n    width: 50px;\r\n    height: 50px;\r\n    background-color: darkgray;\r\n}\r\n.flex{\r\n    display: flex;\r\n}\r\n.flex-nowrap{\r\n    flex-wrap: nowrap;\r\n}\r\n.flex-wrap{\r\n    flex-wrap: wrap;\r\n}\r\n.flex-space-around{\r\n    justify-content: space-around;\r\n}\r\n.flex-space-between{\r\n    justify-content: space-between;\r\n}\r\n.instructions-container{\r\n    margin: 100px 0;\r\n}\r\n.instruction{\r\n    min-width: 300px;\r\n}\r\n.player-input{\r\n    width: 210px;\r\n    height: 30px;\r\n    border-radius: 6px;\r\n    margin-right:10px ;\r\n    line-height: 30px;\r\n}\r\n.button-submit{\r\n    margin:10px 0px 10px 10px;\r\n}\r\n.button-buttle{\r\n    min-width: 200px;\r\n    min-height: 40px;\r\n    margin: 20px;\r\n    font-size: 20px;\r\n    border-radius: 5px;\r\n}\r\n.button-reset{\r\n    min-width: 200px;\r\n    min-height: 40px;\r\n    margin: 20px;\r\n    font-size: 20px;\r\n    border-radius: 5px;\r\n}\r\n.playerh2{\r\n    margin: 10px 0 10px 0;\r\n}\r\n.getPlayer{\r\n    width: 300px;\r\n    height: 60px;\r\n    line-height: 60px;\r\n    display: flex;\r\n    flex-wrap: nowrap;\r\n    justify-content: space-between;\r\n    background: rgba(0, 0, 0, 0.08)\r\n}\r\n.button-del{\r\n    border: none;\r\n    background: rgba(0, 0, 0, 0)\r\n}\r\n.lineheight{\r\n    line-height: 60px;\r\n}\r\n.disable-button{\r\n    opacity:0.5;\r\n }", ""]);
 
 
 /***/ }),
@@ -18124,6 +18138,53 @@ module.exports = function (module) {
 
 /***/ }),
 
+/***/ "./src/battle.css":
+/*!************************!*\
+  !*** ./src/battle.css ***!
+  \************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./battle.css */ "./node_modules/css-loader/dist/cjs.js!./src/battle.css");
+
+if (typeof content === 'string') {
+  content = [[module.i, content, '']];
+}
+
+var options = {}
+
+options.insert = "head";
+options.singleton = false;
+
+var update = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+if (content.locals) {
+  module.exports = content.locals;
+}
+
+if (true) {
+  if (!content.locals) {
+    module.hot.accept(
+      /*! !../node_modules/css-loader/dist/cjs.js!./battle.css */ "./node_modules/css-loader/dist/cjs.js!./src/battle.css",
+      function () {
+        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!./battle.css */ "./node_modules/css-loader/dist/cjs.js!./src/battle.css");
+
+        if (typeof newContent === 'string') {
+          newContent = [[module.i, newContent, '']];
+        }
+        
+        update(newContent);
+      }
+    )
+  }
+
+  module.hot.dispose(function() { 
+    update();
+  });
+}
+
+/***/ }),
+
 /***/ "./src/components/App.js":
 /*!*******************************!*\
   !*** ./src/components/App.js ***!
@@ -18295,21 +18356,35 @@ var _default = Object(react_hot_loader_root__WEBPACK_IMPORTED_MODULE_7__["hot"])
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _components_styles__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/components/styles */ "./src/components/styles.js");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _components_styles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @/components/styles */ "./src/components/styles.js");
+/* harmony import */ var _battle_css__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @/battle.css */ "./src/battle.css");
+/* harmony import */ var _battle_css__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_battle_css__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _components_Card__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @/components/Card */ "./src/components/Card.js");
+
+
+
 
 
 
@@ -18321,6 +18396,10 @@ __webpack_require__.r(__webpack_exports__);
   enterModule && enterModule(module);
 })();
 
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(source, true).forEach(function (key) { _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(source).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
 var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoaderGlobal["default"].signature : function (a) {
   return a;
 };
@@ -18329,49 +18408,526 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 
 
 
-var Battle =
+
+ //查找项目面板
+
+var BattleStart =
 /*#__PURE__*/
 function (_React$Component) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Battle, _React$Component);
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default()(BattleStart, _React$Component);
 
-  function Battle() {
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Battle);
+  function BattleStart(props) {
+    var _this;
 
-    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Battle).apply(this, arguments));
-  }
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, BattleStart);
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Battle, [{
+    _this = _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(BattleStart).call(this, props));
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "getOne", function _callee() {
+      var inputOne, url, res;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              //获取player one 输入框的值
+              inputOne = _this.refs.inputOne.value; //判断是不是空的
+
+              if (!inputOne.match(/^[ ]*$/)) {
+                _context.next = 5;
+                break;
+              }
+
+              //如果为空，提示，删掉输入框多余空格，return，下面的不做了
+              alert("请输入项目名称");
+              _this.refs.inputOne.value = "";
+              return _context.abrupt("return");
+
+            case 5:
+              //查找项目的url
+              url = "https://api.github.com/search/repositories?q=".concat(inputOne, " in:name&sort=stars&order=desc&type=Repositories&per_page=1"); //开始查找
+
+              _this.setState({
+                loadingOne: true
+              });
+
+              _context.prev = 7;
+              _context.next = 10;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_10___default.a.get(url));
+
+            case 10:
+              res = _context.sent;
+
+              if (!(res.data.items.length == 0)) {
+                _context.next = 15;
+                break;
+              }
+
+              //空的，提示，return
+              alert("未查询到项目,请重新输入");
+              _this.refs.inputOne.value = "";
+              return _context.abrupt("return");
+
+            case 15:
+              //能到这里说明返回值不空，调用battle里的setone函数把获取到的项目存储起来
+              _this.props.setOne(res.data.items[0]); //标识已经找到
+
+
+              _this.setState({
+                getOne: true
+              });
+
+              _context.next = 21;
+              break;
+
+            case 19:
+              _context.prev = 19;
+              _context.t0 = _context["catch"](7);
+
+            case 21:
+              //查找完成
+              _this.setState({
+                loadingOne: false
+              });
+
+            case 22:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, null, null, [[7, 19]]);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "rmOne", function () {
+      _this.props.setOne({});
+
+      _this.setState({
+        getOne: false
+      });
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "getTwo", function _callee2() {
+      var inputTwo, url, res;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              inputTwo = _this.refs.inputTwo.value;
+
+              if (!inputTwo.match(/^[ ]*$/)) {
+                _context2.next = 5;
+                break;
+              }
+
+              alert("请输入项目名称");
+              _this.refs.inputTwo.value = "";
+              return _context2.abrupt("return");
+
+            case 5:
+              url = "https://api.github.com/search/repositories?q=".concat(inputTwo, " in:name&sort=stars&order=desc&type=Repositories&per_page=1");
+
+              _this.setState({
+                loadingTwo: true
+              });
+
+              _context2.prev = 7;
+              _context2.next = 10;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_10___default.a.get(url));
+
+            case 10:
+              res = _context2.sent;
+
+              if (!(res.data.items.length == 0)) {
+                _context2.next = 15;
+                break;
+              }
+
+              alert("未查询到项目,请重新输入");
+              _this.refs.inputTwo.value = "";
+              return _context2.abrupt("return");
+
+            case 15:
+              _this.props.setTwo(res.data.items[0]);
+
+              _this.setState({
+                getTwo: true
+              });
+
+              _context2.next = 21;
+              break;
+
+            case 19:
+              _context2.prev = 19;
+              _context2.t0 = _context2["catch"](7);
+
+            case 21:
+              _this.setState({
+                loadingTwo: false
+              });
+
+            case 22:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, null, null, [[7, 19]]);
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "rmTwo", function () {
+      _this.props.setTwo({});
+
+      _this.setState({
+        getTwo: false
+      });
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "oneInputChange", function () {
+      var inputOne = _this.refs.inputOne.value;
+
+      if (inputOne.match(/^[ ]*$/)) {
+        //disabled-button这个样式设置了按钮不可点击
+        _this.refs.submitOne.className = "disable-button";
+        return;
+      }
+
+      _this.refs.submitOne.className = "button-submit";
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "twoInputChange", function () {
+      var inputTwo = _this.refs.inputTwo.value;
+
+      if (inputTwo.match(/^[ ]*$/)) {
+        _this.refs.submitTwo.className = "button-submit disable-button";
+        return;
+      }
+
+      _this.refs.submitTwo.className = "button-submit";
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "oneEnter", function (e) {
+      if (e.key == "Enter") {
+        _this.getOne();
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "twoEnter", function (e) {
+      if (e.key == "Enter") {
+        _this.getTwo();
+      }
+    });
+
+    _this.state = {
+      getOne: false,
+      //判断第一个是否已经获取
+      getTwo: false,
+      //判断第二个是否已经获取
+      loadingOne: false,
+      //第一个是否在查找
+      loadingTwo: false //第二个是否在查找
+
+    };
+    return _this;
+  } //查找第一个player
+
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(BattleStart, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].Battle
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleText
-      }, "Instructions"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleUl
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleLi
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleText
-      }, "Enter two Github users"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleCard
-      })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleLi
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleText
-      }, "Battle"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
-        "class": "fa fa-fighter-jet fa-5x",
-        "aria-hidden": "true"
-      }))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleLi
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h3", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleText
-      }, "See the winner"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        style: _components_styles__WEBPACK_IMPORTED_MODULE_7__["default"].BattleCard
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
-        "class": "fa fa-trophy fa-fw",
-        "aria-hidden": "true"
-      }))))));
+      var battleStyles = {
+        iFont: {
+          fontSize: 200
+        },
+        iFontDel: {
+          fontSize: 20
+        },
+        getImg: {
+          width: '50px',
+          height: '50px',
+          margin: '5px'
+        }
+      };
+      var islight = this.props.islight;
+      var _this$props = this.props,
+          battleStart = _this$props.battleStart,
+          playerOne = _this$props.playerOne,
+          playerTwo = _this$props.playerTwo;
+      var _this$state = this.state,
+          getOne = _this$state.getOne,
+          getTwo = _this$state.getTwo,
+          loadingOne = _this$state.loadingOne,
+          loadingTwo = _this$state.loadingTwo;
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].Battle
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleText
+      }, "Instructions"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleUl
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleLi
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h3", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleText
+      }, "Enter two Github users"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: islight ? _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleCard : _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleCardDark
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-users",
+        "aria-hidden": "true",
+        style: _objectSpread({}, _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].faSize, {
+          color: 'rgb(255, 191, 116)'
+        })
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleLi
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h3", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleText
+      }, "Battle"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: islight ? _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleCard : _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleCardDark
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-fighter-jet fa-fw",
+        "aria-hidden": "true",
+        style: _objectSpread({}, _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].faSize)
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("li", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleLi
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h3", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleText
+      }, "See the winner"), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: islight ? _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleCard : _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleCardDark
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-trophy fa-fw",
+        "aria-hidden": "true",
+        style: _objectSpread({}, _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].faSize, {
+          color: 'rgb(255, 215, 0)'
+        })
+      }))))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].center
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("h1", null, "Players")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleDiv
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleForm
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleLable
+      }, "Player One"), loadingOne ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, "\u6B63\u5728\u67E5\u627E", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-spinner fa-spin"
+      })) : getOne ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "getPlayer"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: playerOne.owner.avatar_url,
+        alt: playerOne.name,
+        style: battleStyles.getImg
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        onClick: this.rmOne,
+        className: "button-del"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-times-circle",
+        style: _objectSpread({}, battleStyles.iFontDel, {
+          color: 'rgb(194, 57, 42)'
+        })
+      }))) : react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleDiv
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleInput,
+        ref: "inputOne",
+        onChange: this.oneInputChange,
+        onKeyDown: this.oneEnter
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        onClick: this.getOne,
+        ref: "submitOne",
+        className: "button-submit disable-button"
+      }, "submit"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("form", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleForm
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("label", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleLable
+      }, "Player One"), loadingTwo ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, "\u6B63\u5728\u67E5\u627E", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-spinner fa-spin"
+      })) : getTwo ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: "getPlayer"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
+        src: playerTwo.owner.avatar_url,
+        alt: playerTwo.name,
+        style: battleStyles.getImg
+      }), playerTwo.name, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        onClick: this.rmTwo,
+        className: "button-del"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("i", {
+        className: "fa fa-times-circle",
+        style: _objectSpread({}, battleStyles.iFontDel, {
+          color: 'rgb(194, 57, 42)'
+        })
+      }))) : react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleDiv
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("input", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleInput,
+        ref: "inputTwo",
+        onChange: this.twoInputChange,
+        onKeyDown: this.twoEnter
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        onClick: this.getTwo,
+        ref: "submitTwo",
+        className: "button-submit disable-button"
+      }, "submit")))), getOne && getTwo && react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].center
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        onClick: battleStart,
+        className: "button-buttle"
+      }, "Battle")));
+    }
+  }, {
+    key: "__reactstandin__regenerateByEval",
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return BattleStart;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component); //比较结果展示面板
+
+
+var BattleEnd =
+/*#__PURE__*/
+function (_React$Component2) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default()(BattleEnd, _React$Component2);
+
+  function BattleEnd(props) {
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, BattleEnd);
+
+    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(BattleEnd).call(this, props));
+  }
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(BattleEnd, [{
+    key: "render",
+    value: function render() {
+      var _this$props2 = this.props,
+          playerOne = _this$props2.playerOne,
+          playerTwo = _this$props2.playerTwo,
+          winner = _this$props2.winner,
+          resetClick = _this$props2.resetClick,
+          islight = _this$props2.islight;
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("ul", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].BattleEnd
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        source: playerOne,
+        index: winner == playerOne.name ? "Winner" : winner == "" ? "Tie" : "Loser",
+        islight: islight
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_components_Card__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        source: playerTwo,
+        index: winner == playerTwo.name ? "Winner" : winner == "" ? "Tie" : "Loser",
+        islight: islight
+      }))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        style: _components_styles__WEBPACK_IMPORTED_MODULE_11__["default"].center
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("button", {
+        onClick: resetClick,
+        className: "button-reset"
+      }, "Reset")));
+    }
+  }, {
+    key: "__reactstandin__regenerateByEval",
+    // @ts-ignore
+    value: function __reactstandin__regenerateByEval(key, code) {
+      // @ts-ignore
+      this[key] = eval(code);
+    }
+  }]);
+
+  return BattleEnd;
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component); //Battle
+
+
+var Battle =
+/*#__PURE__*/
+function (_React$Component3) {
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_6___default()(Battle, _React$Component3);
+
+  function Battle(props) {
+    var _this2;
+
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Battle);
+
+    _this2 = _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Battle).call(this, props));
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this2), "setOne", function (inOne) {
+      _this2.setState({
+        playerOne: inOne
+      });
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this2), "setTwo", function (inTwo) {
+      _this2.setState({
+        playerTwo: inTwo
+      });
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this2), "battleStart", function () {
+      //从state中取出获取到的两个项目
+      var _this2$state = _this2.state,
+          playerOne = _this2$state.playerOne,
+          playerTwo = _this2$state.playerTwo;
+
+      if (playerOne.stargazers_count > playerTwo.stargazers_count) {
+        //one赢了
+        _this2.setState({
+          battle: true,
+          winner: playerOne.name
+        });
+      } else if (playerOne.stargazers_count == playerTwo.stargazers_count) {
+        //平局
+        _this2.setState({
+          battle: true,
+          winner: ""
+        });
+      } else {
+        //two赢了
+        _this2.setState({
+          battle: true,
+          winner: playerTwo.name
+        });
+      }
+    });
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this2), "resetClick", function () {
+      _this2.setState({
+        playerOne: {},
+        playerTwo: {},
+        battle: false,
+        winner: ""
+      });
+    });
+
+    _this2.state = {
+      playerOne: {},
+      //存储第一个获取的数据
+      playerTwo: {},
+      //存储第二个获取的数据
+      battle: false,
+      //判断是否已经比较，如果未比较，展示battlestart面板，如果已经比较，展示battleend面板
+      winner: "" //胜利者是谁
+
+    };
+    return _this2;
+  } //通过参数设置存储第一个获取的值
+
+
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Battle, [{
+    key: "render",
+    value: function render() {
+      var islight = this.props.islight;
+      var _this$state2 = this.state,
+          playerOne = _this$state2.playerOne,
+          playerTwo = _this$state2.playerTwo,
+          battle = _this$state2.battle,
+          winner = _this$state2.winner;
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", null, battle ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(BattleEnd, {
+        playerOne: playerOne,
+        playerTwo: playerTwo,
+        winner: winner,
+        resetClick: this.resetClick,
+        islight: islight
+      }) : react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(BattleStart, {
+        setOne: this.setOne,
+        setTwo: this.setTwo,
+        battleStart: this.battleStart,
+        playerOne: playerOne,
+        playerTwo: playerTwo,
+        islight: islight
+      }));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -18383,7 +18939,7 @@ function (_React$Component) {
   }]);
 
   return Battle;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 var _default = Battle;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
@@ -18396,6 +18952,8 @@ var _default = Battle;
     return;
   }
 
+  reactHotLoader.register(BattleStart, "BattleStart", "E:\\Code-workspace\\demo\\src\\components\\Battle.js");
+  reactHotLoader.register(BattleEnd, "BattleEnd", "E:\\Code-workspace\\demo\\src\\components\\Battle.js");
   reactHotLoader.register(Battle, "Battle", "E:\\Code-workspace\\demo\\src\\components\\Battle.js");
   reactHotLoader.register(_default, "default", "E:\\Code-workspace\\demo\\src\\components\\Battle.js");
 })();
@@ -18644,7 +19202,9 @@ function (_React$Component) {
           nowpages = _this$props.nowpages;
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, nowpages == 'Popular' ? react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Popular__WEBPACK_IMPORTED_MODULE_10__["default"], {
         islight: islight
-      }) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Battle__WEBPACK_IMPORTED_MODULE_11__["default"], null));
+      }) : react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Battle__WEBPACK_IMPORTED_MODULE_11__["default"], {
+        islight: islight
+      }));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -18999,27 +19559,30 @@ var _default = Footer;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! normalize.css/normalize.css */ "./node_modules/normalize.css/normalize.css");
-/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! font-awesome/css/font-awesome.min.css */ "./node_modules/font-awesome/css/font-awesome.min.css");
-/* harmony import */ var font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./styles */ "./src/components/styles.js");
+/* WEBPACK VAR INJECTION */(function(module) {/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/inherits */ "./node_modules/@babel/runtime/helpers/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! normalize.css/normalize.css */ "./node_modules/normalize.css/normalize.css");
+/* harmony import */ var normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(normalize_css_normalize_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! font-awesome/css/font-awesome.min.css */ "./node_modules/font-awesome/css/font-awesome.min.css");
+/* harmony import */ var font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(font_awesome_css_font_awesome_min_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _styles__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./styles */ "./src/components/styles.js");
+
 
 
 
@@ -19045,15 +19608,15 @@ var __signature__ = typeof reactHotLoaderGlobal !== 'undefined' ? reactHotLoader
 var Header =
 /*#__PURE__*/
 function (_React$Component) {
-  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_4___default()(Header, _React$Component);
+  _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_5___default()(Header, _React$Component);
 
   function Header() {
-    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0___default()(this, Header);
+    _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_1___default()(this, Header);
 
-    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3___default()(Header).apply(this, arguments));
+    return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Header).apply(this, arguments));
   }
 
-  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Header, [{
+  _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_2___default()(Header, [{
     key: "render",
     value: function render() {
       var _this$props = this.props,
@@ -19061,28 +19624,28 @@ function (_React$Component) {
           islight = _this$props.islight,
           pagesClick = _this$props.pagesClick,
           nowpages = _this$props.nowpages;
-      return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].header
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("ul", {
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].ul
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].li
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("nav", {
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].header
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("ul", {
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].ul
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].li
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         href: "./index.html",
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].a,
         onClick: function onClick() {
           return pagesClick('Popular');
-        }
-      }, "Popular")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].li
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        },
+        style: nowpages == 'Popular' ? _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aActive : _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aDefaule
+      }, "Popular")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("li", {
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].li
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_0___default()({
         href: "#",
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].a,
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].a,
         onClick: function onClick() {
           return pagesClick('Battle');
         }
-      }, "Battle")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
-        style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].btn,
+      }, "style", nowpages == 'Battle' ? _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aActive : _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aDefaule), "Battle")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].btn,
         onClick: onClick
       }, islight ? '🔦' : '💡')));
     }
@@ -19096,7 +19659,7 @@ function (_React$Component) {
   }]);
 
   return Header;
-}(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 var _default = Header;
 /* harmony default export */ __webpack_exports__["default"] = (_default);
@@ -19191,7 +19754,11 @@ function (_React$Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         style: _styles__WEBPACK_IMPORTED_MODULE_10__["default"].center
-      }, "\u6B63\u5728\u52A0\u8F7D...");
+      }, "\u6B63\u5728\u52A0\u8F7D", react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("i", {
+        "class": "fa fa-spinner fa-pulse fa-lg fa-fw"
+      }), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        "class": "sr-only"
+      }, "Loading..."));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -19554,7 +20121,13 @@ var styles = {
     listStyleType: 'none',
     marginRight: '10px'
   },
-  a: {
+  aActive: {
+    textDecoration: 'none',
+    color: 'red',
+    fontSize: '18px',
+    fontWeight: 'bold'
+  },
+  aDefaule: {
     textDecoration: 'none',
     color: 'inherit',
     fontSize: '18px',
@@ -19639,17 +20212,61 @@ var styles = {
     display: 'flex',
     flexDirection: 'row',
     lexWrap: 'warp',
-    justifyContent: 'space-around',
-    textAlign: 'center'
+    justifyContent: 'space-around'
   },
   BattleLi: {
     listStyleType: 'none',
-    width: '320px',
+    width: '220px',
     height: 'auto'
   },
   BattleCard: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
     height: '140px',
     background: '#d9d9d9'
+  },
+  BattleCardDark: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '140px',
+    background: '#595959'
+  },
+  faSize: {
+    fontSize: '7em'
+  },
+  BattleForm: {
+    marginRight: 20,
+    marginLeft: 20,
+    padding: 10,
+    height: 'auto',
+    width: 540
+  },
+  BattleBtn: {
+    margin: '10px 0px 10px 10px'
+  },
+  BattleInput: {
+    width: 'auto',
+    margin: 10,
+    flex: '1'
+  },
+  BattleLable: {
+    fontWeight: 300,
+    margin: '10px',
+    color: 'inherit'
+  },
+  BattleDiv: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between'
+  },
+  BattleEnd: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-around'
   }
 };
 var _default = styles;

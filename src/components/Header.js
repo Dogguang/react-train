@@ -12,8 +12,8 @@ class Header extends React.Component{
         return <nav style={styles.header}>
             <div>
                 <ul style={styles.ul}>
-                    <li style={styles.li}><a href="./index.html" style={styles.a} onClick={()=>pagesClick('Popular')}>Popular</a></li>
-                    <li style={styles.li}><a href="#" style={styles.a} onClick={()=>pagesClick('Battle')}>Battle</a></li>
+                    <li style={styles.li}><a href="./index.html" onClick={()=>pagesClick('Popular')} style={nowpages=='Popular' ? styles.aActive:styles.aDefaule}>Popular</a></li>
+                    <li style={styles.li}><a href="#" style={styles.a} onClick={()=>pagesClick('Battle')} style={nowpages=='Battle'? styles.aActive:styles.aDefaule}>Battle</a></li>
                 </ul>
             </div>
             <div>

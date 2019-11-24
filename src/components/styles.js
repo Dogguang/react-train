@@ -27,7 +27,13 @@ const styles={
         listStyleType: 'none',
         marginRight: '10px'
     },
-    a:{
+    aActive:{
+        textDecoration:'none',
+        color:'red',
+        fontSize:'18px',
+        fontWeight: 'bold'
+    },
+    aDefaule:{
         textDecoration:'none',
         color:'inherit',
         fontSize:'18px',
@@ -113,17 +119,61 @@ const styles={
         flexDirection: 'row',
         lexWrap:'warp',
         justifyContent:'space-around',
-        textAlign:'center'
+        
     },
     BattleLi:{
         listStyleType: 'none',
-        width:'320px',
+        width:'220px',
         height:'auto'
     },
     BattleCard:{
+        display:'flex',
+        flexDirection: 'column',
+        alignItems:'center',
+        justifyContent:'center',
         height:'140px',
         background:'#d9d9d9'
-        }
-    
+    },
+    BattleCardDark:{
+        display:'flex',
+        flexDirection: 'column',
+        alignItems:'center',
+        justifyContent:'center',
+        height:'140px',
+        background:'#595959'
+    },
+    faSize:{
+        fontSize:'7em'
+    },
+    BattleForm:{
+        marginRight:20,
+        marginLeft:20,
+        padding:10,
+        height:'auto',
+        width:540
+    },
+    BattleBtn:{
+        margin:'10px 0px 10px 10px'
+    },
+    BattleInput:{
+        width:'auto',
+        margin:10,
+        flex:'1'
+    },
+    BattleLable:{
+        fontWeight:300,
+        margin:'10px',
+        color:'inherit'
+    },
+    BattleDiv:{
+        display:'flex',
+        flexDirection: 'row',
+        justifyContent:'space-between'
+    },
+    BattleEnd:{
+        display:'flex',
+        flexDirection: 'row',
+        justifyContent:'space-around'
+    }
 }
 export default styles;
