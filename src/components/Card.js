@@ -18,11 +18,11 @@ class Card extends React.Component{
                 <div style={styles.center}>
                     <img src={source.owner.avatar_url} alt={source.name} style={styles.cardImg} />
                 </div>
-                <h4 style={styles.cardTitle}><a href={source.html_url} target="_blank" style={styles.a}>
+                <h4 style={styles.cardTitle}><a href={source.html_url} target="_blank" style={styles.aDefaule}>
                     {source.owner.login}
                 </a></h4>
                 <div>
-                    <i className="fa fa-user" style={{ ...styles.icon, color: 'rgb(255, 191, 116)' }}></i><a href={source.owner.html_url} target="_blank" style={styles.a}>
+                    <i className="fa fa-user" style={{ ...styles.icon, color: 'rgb(255, 191, 116)' }}></i><a href={source.owner.html_url} target="_blank" style={styles.aDefaule}>
                         {source.name}
                     </a>
                 </div>

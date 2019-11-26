@@ -4,3 +4,16 @@
 a:hover{
     cursor: pointer;
 }
+
+.aDefaule{
+    text-decoration:none;
+    color:inherit;
+    font-size:18px;
+    font-weight: bold;
+}
+.aActive{
+    text-decoration:none;
+    color:red;
+    font-size:18px;
+    font-weight: bold;
+}

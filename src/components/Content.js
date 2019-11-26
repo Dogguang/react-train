@@ -7,7 +7,8 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    Link,
+    Redirect
   } from "react-router-dom";
 
 import Popular from './Popular';
@@ -19,7 +20,7 @@ class Content extends React.Component {
         return (
                 <Switch>
                     <Route exact path="/">
-                        <Popular islight={islight}></Popular>
+                        <Redirect from="/" to="/Popular"></Redirect>
                     </Route>
                     <Route exact path="/Popular">
                         <Popular islight={islight}></Popular>

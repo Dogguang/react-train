@@ -7,7 +7,7 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
+    NavLink
   } from "react-router-dom";
 
 import styles from './styles';
@@ -18,8 +18,8 @@ class Header extends React.Component{
         return <nav style={styles.header}>
                 <div>
                     <ul style={styles.ul}>
-                        <li style={styles.li}><Link to="/Popular" style={styles.aDefaule}>Popular</Link></li>
-                        <li style={styles.li}><Link to="/Battle" style={styles.aDefaule}>Battle</Link></li>
+                        <li style={styles.li}><NavLink to="/Popular" className="aDefaule" activeClassName="aActive">Popular</NavLink></li>
+                        <li style={styles.li}><NavLink to="/Battle" className="aDefaule" activeClassName="aActive">Battle</NavLink></li>
                     </ul>
                 </div>
                 <div>

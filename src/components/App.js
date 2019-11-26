@@ -28,7 +28,7 @@ class App extends React.Component {
         }));
     }
     render(){
-        const {islight,}=this.state;
+        const {islight}=this.state;
         return <div style={islight ? styles.light : styles.dark}>
             <div style={styles.container}>
                 <Router>
