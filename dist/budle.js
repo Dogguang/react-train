@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "42bc68f69e9f02d3743f";
+/******/ 	var hotCurrentHash = "ce87becb9c1a49448617";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -2856,7 +2856,7 @@ exports.push([module.i, "\r\n.test{\r\n    text-align: center;\r\n    width: 50p
 
 exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(false);
 // Module
-exports.push([module.i, ".text-center{\r\n    text-align: center;\r\n}\r\na:hover{\r\n    cursor: pointer;\r\n}", ""]);
+exports.push([module.i, ".text-center{\r\n    text-align: center;\r\n}\r\na:hover{\r\n    cursor: pointer;\r\n}\r\n\r\n.aDefaule{\r\n    text-decoration:none;\r\n    color:inherit;\r\n    font-size:18px;\r\n    font-weight: bold;\r\n}\r\n.aActive{\r\n    text-decoration:none;\r\n    color:red;\r\n    font-size:18px;\r\n    font-weight: bold;\r\n}", ""]);
 
 
 /***/ }),
@@ -22153,7 +22153,7 @@ function (_React$Component) {
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         href: source.html_url,
         target: "_blank",
-        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].a
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aDefaule
       }, source.owner.login)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fa fa-user",
         style: _objectSpread({}, _styles__WEBPACK_IMPORTED_MODULE_11__["default"].icon, {
@@ -22162,7 +22162,7 @@ function (_React$Component) {
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
         href: source.owner.html_url,
         target: "_blank",
-        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].a
+        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aDefaule
       }, source.name)), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
         className: "fa fa-star",
         style: _objectSpread({}, _styles__WEBPACK_IMPORTED_MODULE_11__["default"].icon, {
@@ -22291,8 +22291,9 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Route"], {
         exact: true,
         path: "/"
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Popular__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        islight: islight
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Redirect"], {
+        from: "/",
+        to: "/Popular"
       })), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Route"], {
         exact: true,
         path: "/Popular"
@@ -22420,54 +22421,72 @@ function (_React$Component) {
     _this = _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(ContentList).call(this, props));
 
     _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_7___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_5___default()(_this), "search", function _callee() {
-      var query, url, res;
+      var query, _this$state, pageNum, pageEnd, items, url, res;
+
       return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.async(function _callee$(_context) {
         while (1) {
           switch (_context.prev = _context.next) {
             case 0:
               query = _this.props.query;
+              _this$state = _this.state, pageNum = _this$state.pageNum, pageEnd = _this$state.pageEnd, items = _this$state.items; //如果当前页已经是最后一页或超出，设置加载更多为false，不再继续加载
+
+              if (!(pageNum > pageEnd)) {
+                _context.next = 5;
+                break;
+              }
+
+              _this.setState({
+                hasMore: false
+              });
+
+              return _context.abrupt("return");
+
+            case 5:
+              //不是最后一页就继续请求数据加载
               url = "https://api.github.com/search/repositories?q=".concat(query, "&sort=stars&order=desc&type=Repositories");
               console.log('url', url);
-
-              _this.setState({
-                loading: true
-              });
-
-              _context.prev = 4;
-              _context.next = 7;
+              _context.prev = 7;
+              _context.next = 10;
               return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.awrap(axios__WEBPACK_IMPORTED_MODULE_10___default.a.get(url));
 
-            case 7:
+            case 10:
               res = _context.sent;
-              console.log('res', res.data);
+              console.log('res', res.data); //concat是数组拼接函数，把这次请求到的数据加到之前加载的数据数组里
 
               _this.setState({
-                items: res.data.items
+                items: items.concat(res.data.items)
               });
 
-              _context.next = 15;
+              _context.next = 18;
               break;
 
-            case 12:
-              _context.prev = 12;
-              _context.t0 = _context["catch"](4);
+            case 15:
+              _context.prev = 15;
+              _context.t0 = _context["catch"](7);
               console.log('error', _context.t0);
 
-            case 15:
+            case 18:
+              //当前页+1
               _this.setState({
-                loading: false
+                pageNum: pageNum + 1
               });
 
-            case 16:
+            case 19:
             case "end":
               return _context.stop();
           }
         }
-      }, null, null, [[4, 12]]);
+      }, null, null, [[7, 15]]);
     });
 
     _this.state = {
-      loading: false,
+      //是否加载更多
+      hasMore: true,
+      //当前加载页数
+      pageNum: 1,
+      //最多加载页数
+      pageEnd: 3,
+      //存放请求到的数据
       items: []
     };
     return _this;
@@ -22477,20 +22496,30 @@ function (_React$Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       this.search();
-    }
+    } //组件props和state更新时调用
+
   }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate(prevProps) {
       if (this.props.query != prevProps.query) {
-        this.search();
+        //有改变，即切换了分类
+        this.setState({
+          //把之前分类加载的内容清空，当前页重置为第一页，设置继续加载为true
+          items: [],
+          pageNum: 1,
+          hasMore: true
+        });
       }
-    }
+    } //请求函数
+
   }, {
     key: "render",
     value: function render() {
-      var _this$state = this.state,
-          items = _this$state.items,
-          loading = _this$state.loading;
+      var _this2 = this;
+
+      var _this$state2 = this.state,
+          hasMore = _this$state2.hasMore,
+          items = _this$state2.items;
       var islight = this.props.islight;
       var cards = items.map(function (item, key) {
         return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Card__WEBPACK_IMPORTED_MODULE_14__["default"], {
@@ -22500,9 +22529,19 @@ function (_React$Component) {
           islight: islight
         });
       });
-      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(react_infinite_scroller__WEBPACK_IMPORTED_MODULE_12___default.a, {
+        pageStart: 0,
+        loadMore: function loadMore() {
+          return _this2.search();
+        },
+        hasMore: hasMore,
+        loader: react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+          className: "loader",
+          key: 0
+        }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_15__["default"], null))
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
         style: _styles__WEBPACK_IMPORTED_MODULE_13__["default"].content
-      }, loading ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Loading__WEBPACK_IMPORTED_MODULE_15__["default"], null) : cards);
+      }, cards));
     }
   }, {
     key: "__reactstandin__regenerateByEval",
@@ -22726,14 +22765,16 @@ function (_React$Component) {
         style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].ul
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].li
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
         to: "/Popular",
-        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aDefaule
+        className: "aDefaule",
+        activeClassName: "aActive"
       }, "Popular")), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("li", {
         style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].li
-      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["Link"], {
+      }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_10__["NavLink"], {
         to: "/Battle",
-        style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].aDefaule
+        className: "aDefaule",
+        activeClassName: "aActive"
       }, "Battle")))), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("button", {
         style: _styles__WEBPACK_IMPORTED_MODULE_11__["default"].btn,
         onClick: onClick
